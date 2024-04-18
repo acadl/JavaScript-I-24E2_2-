@@ -1,5 +1,9 @@
 anoNascimento = 1978
-idade = 2024 - anoNascimento
 nome = "Elberth"
+
+hoje = new Date()
+anoAtual = hoje.getFullYear()
+idade = anoAtual - anoNascimento
 mensagem = "Sou "+nome+ " eu tenho " +idade+ " anos"
+
 alert(mensagem)
